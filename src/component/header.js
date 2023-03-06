@@ -1,5 +1,4 @@
 /* eslint-disable react/react-in-jsx-scope */
-import logoProfile from "../assets/images/logo-profile.png";
 import { Dropdown } from "react-bootstrap";
 import OffCanvas from "../component/offCanvas";
 
@@ -49,9 +48,7 @@ const Header = () => {
               </form>
               <ul className="navbar-nav mb-2 mb-lg-0 ms-3">
                 <li className="nav-item">
-                  <a href="nav-Link">
-                    <img src={logoProfile} alt="" />
-                  </a>
+                  
                 </li>
                 <Dropdown>
                   <Dropdown.Toggle
